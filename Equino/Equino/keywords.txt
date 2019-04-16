@@ -34,17 +34,10 @@ compensation		KEYWORD2
 read				KEYWORD2
 write				KEYWORD2
 volume				KEYWORD2
-clear				KEYWORD2
-getCols				KEYWORD2
-getRows				KEYWORD2
-print				KEYWORD2
 getEnable			KEYWORD2
 setEnable			KEYWORD2
 getId				KEYWORD2
 setup				KEYWORD2
-getBits				KEYWORD2
-sendChar			KEYWORD2
-
 
 #######################################
 # Instances (KEYWORD3)
@@ -65,12 +58,6 @@ setupPin		KEYWORD3
 id				KEYWORD3
 ledids			KEYWORD3
 relayids		KEYWORD3
-len				KEYWORD3
-enabledPin		KEYWORD3
-clockPin		KEYWORD3
-dataPin			KEYWORD3
-strobePin		KEYWORD3
-display			KEYWORD3
 
 #######################################
 # Constants (LITERAL1)

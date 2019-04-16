@@ -13,13 +13,17 @@
 #include <Arduino.h>
 
 // library interface description
-class DisplayDevice { // @suppress("Class has a virtual method and non-virtual destructor")
+class DisplayDevice {
 	// user-accessible "public" interface
 public:
+
+	virtual ~DisplayDevice(){};
 
 	virtual void clear(void) = 0;
 
 	virtual void print(char *data) = 0;
+
+	virtual void print(char* format, int size, ...) = 0;
 
 	virtual int getCols() = 0;
 
