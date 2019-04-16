@@ -1,0 +1,44 @@
+#######################################
+# Syntax Coloring Map For Equino Library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+DisplayDevice			KEYWORD1
+DisplayDevice7Seg4094	KEYWORD1
+DisplayDevice7Seg595D	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+clear			KEYWORD2
+getCols			KEYWORD2
+getRows			KEYWORD2
+print			KEYWORD2
+getEnable		KEYWORD2
+setEnable		KEYWORD2
+getId			KEYWORD2
+setup			KEYWORD2
+getBits			KEYWORD2
+sendChar		KEYWORD2
+
+#######################################
+# Instances (KEYWORD3)
+#######################################
+len				KEYWORD3
+enabledPin		KEYWORD3
+clockPin		KEYWORD3
+dataPin			KEYWORD3
+strobePin		KEYWORD3
+display			KEYWORD3
+charset			KEYWORD3
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+ENABLE_PIN		LITERAL1
+CLOCK_PIN		LITERAL1
+DATA_PIN		LITERAL1
+LATCH_PIN		LITERAL1
+DISPLAY_LEN 	LITERAL1
