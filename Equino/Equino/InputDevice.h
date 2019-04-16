@@ -27,7 +27,7 @@ private:
 class KeyInputDevice: public InputDevice {
 	// user-accessible "public" interface
 public:
-	virtual ~KeyInputDevice();
+	virtual ~KeyInputDevice(){};
 
 	virtual char read(void) = 0;
 

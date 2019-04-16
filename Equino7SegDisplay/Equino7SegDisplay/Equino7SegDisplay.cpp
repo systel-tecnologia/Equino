@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
 
-	display.print(fmt, 6, 129);
+	display.print((char*)fmt, 6, 123);
 	delay(500);
 	display.clear();
 	delay(500);

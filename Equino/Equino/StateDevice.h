@@ -19,7 +19,7 @@ class StateDevice {
 	// user-accessible "public" interface
 public:
 
-	virtual ~StateDevice();
+	virtual ~StateDevice(){};
 
 	virtual void write(State state) = 0;
 
