@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For Equino Library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+TimeDevice	KEYWORD1
+RTCDs1307	KEYWORD1
+TC16Mhz		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+start	KEYWORD2
+setup	KEYWORD2
+now		KEYWORD2
+
+#######################################
+# Instances (KEYWORD3)
+#######################################
+itc	KEYWORD3
+rtc	KEYWORD3
+
+#######################################
+# Constants (LITERAL1)
+#######################################

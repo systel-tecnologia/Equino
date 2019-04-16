@@ -1,0 +1,99 @@
+#######################################
+# Syntax Coloring Map For Equino Library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+AudioMessageDevice 		KEYWORD1
+StorageDevice			KEYWORD1
+InputDevice 			KEYWORD1
+KeyInputDevice 			KEYWORD1
+DataReceiverDevice		KEYWORD1
+DataSenderDevice		KEYWORD1
+StateDevice				KEYWORD1
+DisplayDevice			KEYWORD1
+Level					KEYWORD1
+State					KEYWORD1
+AudioBuzzer				KEYWORD1
+Led						KEYWORD1
+Relay					KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+DBG_PRINT_LEVEL 	KEYWORD2
+DBG_PRINTLN_LEVEL 	KEYWORD2
+signal				KEYWORD2
+info				KEYWORD2
+warn				KEYWORD2
+error				KEYWORD2
+fatal				KEYWORD2
+mute				KEYWORD2
+compensation		KEYWORD2
+read				KEYWORD2
+write				KEYWORD2
+volume				KEYWORD2
+clear				KEYWORD2
+getCols				KEYWORD2
+getRows				KEYWORD2
+print				KEYWORD2
+getEnable			KEYWORD2
+setEnable			KEYWORD2
+getId				KEYWORD2
+setup				KEYWORD2
+getBits				KEYWORD2
+sendChar			KEYWORD2
+
+
+#######################################
+# Instances (KEYWORD3)
+#######################################
+enable			KEYWORD3
+state			KEYWORD3
+data			KEYWORD3
+address			KEYWORD3
+size			KEYWORD3
+level			KEYWORD3
+repetitions		KEYWORD3
+frequency		KEYWORD3
+duration		KEYWORD3
+audio			KEYWORD3
+soundPin		KEYWORD3
+adjPin			KEYWORD3
+setupPin		KEYWORD3
+id				KEYWORD3
+ledids			KEYWORD3
+relayids		KEYWORD3
+len				KEYWORD3
+enabledPin		KEYWORD3
+clockPin		KEYWORD3
+dataPin			KEYWORD3
+strobePin		KEYWORD3
+display			KEYWORD3
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+DEBUG_LEVEL 		LITERAL1
+EMPTY_DATA			LITERAL1
+BEEP_TONE_FREQ 		LITERAL1
+BEEP_TIME 			LITERAL1
+FREQ_INIT_WARN 		LITERAL1
+FREQ_FINAL_WARN 	LITERAL1
+TONE_TIME_WARN 		LITERAL1
+FREQ_INIT_ERROR 	LITERAL1
+FREQ_FINAL_ERROR 	LITERAL1
+TONE_TIME_ERROR 	LITERAL1
+FREQ_INIT_FATAL 	LITERAL1
+FREQ_FINAL_FATAL 	LITERAL1
+TONE_TIME_FATAL 	LITERAL1
+STATE_OFF			LITERAL1
+STATE_ON			LITERAL1
+LEVEL_0				LITERAL1
+LEVEL_25			LITERAL1
+LEVEL_50			LITERAL1
+LEVEL_75			LITERAL1
+LEVEL_100			LITERAL1
+SOUND_OUT_PIN		LITERAL1
+SOUND_ADJ_PIN		LITERAL1
