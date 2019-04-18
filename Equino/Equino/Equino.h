@@ -13,7 +13,7 @@
 	#include <Arduino.h>
 	
 	// Debug directive Levels
-	#define DEBUG_LEVEL 3
+	#define DEBUG_LEVEL 0
 
 	// Default Empty Data Value
 	#define EMPTY_DATA	0
